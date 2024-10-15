@@ -11,7 +11,7 @@ export default function TabsLayout() {
         options={{
           title: "For you",
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="home" size={26} color={color} />
+            <FontAwesome name="home" size={24} color={color} />
           ),
         }}
       />
@@ -20,7 +20,7 @@ export default function TabsLayout() {
         options={{
           title: "Create Post",
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="plus-square-o" size={26} color={color} />
+            <FontAwesome name="plus-square-o" size={24} color={color} />
           ),
         }}
       />
@@ -29,7 +29,7 @@ export default function TabsLayout() {
         options={{
           title: "Profile ",
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="user" size={26} color={color} />
+            <FontAwesome name="user" size={24} color={color} />
           ),
         }}
       />
